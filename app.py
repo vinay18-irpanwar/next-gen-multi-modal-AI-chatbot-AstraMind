@@ -1,11 +1,11 @@
 import streamlit as st
 from dotenv import load_dotenv
 import os
-from models.openai_model import chat_openai
-from models.pollinations_model import generate_image_pollinations
-from models.image_qa_model import analyze_image
-from models.voice_input import get_voice_input
-from models.groq_model import chat_groq
+from openai_model import chat_openai
+from pollinations_model import generate_image_pollinations
+from image_qa_model import analyze_image
+from voice_input import get_voice_input
+from groq_model import chat_groq
 from PIL import Image
 
 load_dotenv()
@@ -146,4 +146,5 @@ elif mode == "🎙️ Voice Chat":
             st.session_state.chat_history.append({"role": "bot", "content": response})
 
             st.write("### 🧠 AstraMind Says:")
+
             st.write(response)
