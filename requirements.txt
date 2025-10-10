@@ -2,6 +2,7 @@
 # Core Framework
 # =============================
 streamlit>=1.33.0
+SpeechRecognition>=3.9.0
 
 # =============================
 # AI Model APIs
@@ -59,6 +60,7 @@ aiohttp>=3.9.5
 # =============================
 pytest>=8.2.2
 pytest-asyncio>=0.23.6
+
 
 
 
