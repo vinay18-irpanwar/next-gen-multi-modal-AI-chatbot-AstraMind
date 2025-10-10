@@ -63,7 +63,7 @@ if mode == "💬 Text Chat":
                 if text_model == "OpenAI":
                     response = chat_openai(prompt) 
                 elif text_model == "Gemini":
-                    from models.gemini_model import chat_gemini
+                    from gemini_model import chat_gemini
                     response = chat_gemini(prompt, language=language)
                 elif text_model == "Groq":
                     response = chat_groq(prompt, language=language)
@@ -148,3 +148,4 @@ elif mode == "🎙️ Voice Chat":
             st.write("### 🧠 AstraMind Says:")
 
             st.write(response)
+
