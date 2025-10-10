@@ -1,47 +1,47 @@
 # Core Framework
-streamlit>=1.30.0
+streamlit>=1.33.0
 
 # AI Model APIs
-google-generativeai>=0.3.0
-groq>=0.5.0
-openai>=1.10.0
-huggingface-hub>=0.20.0
+google-generativeai>=0.4.0
+groq>=0.7.0
+openai>=1.30.0
+huggingface-hub>=0.23.0
 
 # HTTP Requests
-requests>=2.31.0
-httpx>=0.26.0
+requests>=2.32.3
+httpx>=0.27.0
 
 # Image Processing
-Pillow>=10.2.0
+Pillow>=10.3.0
 
 # Environment Variables
-python-dotenv>=1.0.0
+python-dotenv>=1.0.1
 
 # Voice Input
-SpeechRecognition>=3.10.0
+SpeechRecognition>=3.10.1
 pyaudio>=0.2.14
 
 # Data Handling
-pandas>=2.1.0
+pandas>=2.2.2
 
 # Date/Time
-python-dateutil>=2.8.2
+python-dateutil>=2.9.0
 
-# JSON Handling (usually built-in, but for completeness)
-jsonschema>=4.20.0
+# JSON Handling
+jsonschema>=4.22.0
 
 # Progress Indicators
-tqdm>=4.66.0
+tqdm>=4.66.4
 
 # Optional: For better audio handling
-pydub>=0.25.1
+pydub>=0.27.0
 
 # Optional: For image encoding
-base64io>=1.0.3
+base64io>=1.0.4
 
 # Optional: For async operations
-aiohttp>=3.9.0
+aiohttp>=3.9.5
 
 # Testing (optional but recommended)
-pytest>=7.4.0
-pytest-asyncio>=0.21.0
+pytest>=8.2.2
+pytest-asyncio>=0.23.6
