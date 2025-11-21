@@ -1,5 +1,5 @@
 # next-gen-multi-modal-AI-chatbot-AstraMind
-
+visit Steamlit for more details:-- https://next-gen-multi-modal-ai-chatbot-astramind-s46fdq8b7br4w5kbttvc.streamlit.app/
 🤖 AstraMind – Your Multimodal AI Assistant
 
 AstraMind is a next-generation, multimodal AI assistant built with Streamlit that integrates multiple advanced AI models like OpenAI, Gemini, Groq, and Pollinations.
